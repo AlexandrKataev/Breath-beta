@@ -272,7 +272,14 @@ li {
 }
 
 .colorActive {
-  color: #ffb4ab !important;
+  color: #999999 !important;
+  font-size: 20px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.myTable {
+  margin: 50px auto;
 }
 
 .backGround {

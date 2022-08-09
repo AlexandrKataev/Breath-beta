@@ -427,6 +427,8 @@ input[type="range"]::-ms-track {
 }
 .description {
   margin: 0px 0px 0px 50px;
+  font-family: "Jost", sans-serif;
+
   font-size: 20px;
   line-height: 40px;
   color: #bbb;

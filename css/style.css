@@ -425,3 +425,9 @@ input[type="range"]::-ms-track {
 .pointActive {
   opacity: 1 !important;
 }
+.description {
+  margin: 0px 0px 0px 50px;
+  font-size: 20px;
+  line-height: 40px;
+  color: #bbb;
+}

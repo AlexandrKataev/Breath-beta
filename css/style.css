@@ -272,10 +272,7 @@ li {
 }
 
 .colorActive {
-  color: #999999 !important;
-  font-size: 20px;
-  text-align: center;
-  line-height: 40px;
+  color: #ffb4ab !important; /* !!!!!!!!! Исправить повторение классов */
 }
 
 .myTable {

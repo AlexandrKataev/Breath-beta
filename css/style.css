@@ -280,7 +280,9 @@ li {
 }
 
 .backGround {
+  position: relative;
   background-color: #222129;
+  width: 100%;
   /* background-image: radial-gradient(#2d2c36, rgb(17, 17, 20)); */
 }
 
@@ -425,11 +427,15 @@ input[type="range"]::-ms-track {
 .pointActive {
   opacity: 1 !important;
 }
-.description {
-  margin: 0px 0px 0px 50px;
-  font-family: "Jost", sans-serif;
 
-  font-size: 20px;
-  line-height: 40px;
+.description {
+  position: absolute;
+  top: 50px;
+  left: 30%;
+
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 36px;
   color: #bbb;
 }

@@ -1,0 +1,24 @@
+#myContainer {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  background-image: linear-gradient(rgb(255, 99, 255), rgb(255, 127, 115));
+  -webkit-mask-box-image: url(./img.png);
+  margin: 0 auto;
+}
+
+#myContainer2 {
+  position: relative;
+  z-index: -1;
+  display: block;
+  top: 100%;
+  width: 400px;
+  height: 400px;
+  opacity: 0.5;
+  background: #fef0ff;
+
+  animation-duration: 7s;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}

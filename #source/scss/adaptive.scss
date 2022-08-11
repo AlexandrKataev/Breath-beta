@@ -1,0 +1,15 @@
+@media (max-height: 850px) {
+  #element {
+    transform: scale(0.6, 0.6);
+    margin-top: -140px;
+  }
+  .start_button {
+    top: 580px !important;
+  }
+  #range {
+    margin-top: 0px;
+  }
+  #rangeValue {
+    margin-top: -50px;
+  }
+}

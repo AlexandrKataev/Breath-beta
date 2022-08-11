@@ -37,11 +37,8 @@ function changeLevel() {
   newZadLevel();
 }
 
-// Очистить данные
-// localStorage.clear();
-
 const newZadLevel = () => {
-  zad1 = level + 4;
+  zad1 = level;
   zad10 = zad1 * 2;
   zad5 = Math.floor((zad10 + zad1) / 2 - 1);
   zad6 = Math.floor((zad10 + zad1) / 2);
@@ -96,7 +93,7 @@ const start = () => {
     location.reload();
   } else {
     loadingBar();
-    vdohTime = Number(4 + level);
+    vdohTime = Number(level);
     document.getElementById("comment").classList.add("show");
     document.getElementById("comment").innerHTML = "Вдох";
     document.getElementById("time").innerHTML = vdohTime;
@@ -187,7 +184,7 @@ const start = () => {
   };
 
   const vidohStart = () => {
-    vidohTime = Number(4 + level);
+    vidohTime = Number(level);
     document.getElementById("time").innerHTML = vidohTime;
     document.getElementById("comment").innerHTML = "Выдох";
 
